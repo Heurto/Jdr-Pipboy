@@ -66,16 +66,28 @@
 </div>
 
 <script>
-    let DATABASE = [];
+let DATABASE = [];
     let SKILLS = { f: "CHANCE", d: "SURVIE", t: "MEDECINE" };
     let squad = [];
     const CONDITIONS_LIST = ["empoisonné", "hébété", "infirme bras", "infirme jambes", "En feu", "somnolent"];
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+        fetch('BESTIAIRE.csv') 
+            .then(response => response.text())
+            .then(data => {
+                console.log("Fichier CSV détecté, chargement auto...");
+                processData(data);
+            })
+            .catch(error => {
+                console.log("Pas de chargement auto, attente d'import manuel.");
+            });
+    });
 
     function play(id) { 
         const sound = document.getElementById(id);
         if(sound) {
             sound.currentTime = 0;
-            sound.play().catch(e => console.log("Audio blocké par le navigateur, cliquez d'abord sur la page."));
+            sound.play().catch(e => {});
         }
     }
 
