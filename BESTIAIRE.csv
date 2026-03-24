@@ -1,0 +1,9 @@
+﻿NOM,INIT,HP,IMAGE,EQUIPEMENT,F_SUCCES,D_FAIL,D_SUCCES,T_FAIL,T_SUCCES
+,,,,,skill : chance + discrétion,skill : END + Survie,skill : END + Survie,skill : AGI + méd,skill : AGI + méd
+Raider,11,8,Raider_Simple.png,vêtements en cuir/ arme rudimentaire,15 Caps / Jet / Rien,,,,
+Raider_B,12,14,Raider_B.png,1D4 explosifs/armure de cuir/ arme de raider,2 Caps / Rien,,,,
+Raider_Chef,17,30,Raider_chef.png,Arme de chef / armure de pillard en métal/stimpak/ jet,Plan de coffre / 10d10 Caps/ clé/ pendentif en argent,,,,
+
+Troupe_TGE,12,15,Troupe_TGE.png,Arme Cac / armure légère du TGE,Collier d'esclavagiste / prime / nourriture / drogue / rien,,,,
+Commandant_TGE,15,25,Commandant_TGE.png,Arme cac 2 mains / armure intermédiaire du TGE / arme automatique,Collier d'esclavagiste/prime/nourriture/drogue/rien/ordres/plan de la zone/cheval en bois,,,,
+Légionnaire_TGE,18,40,Légionaire_TGE.png,Arme lourde/explosifs/armure lourde du TGE/Médaille d'honneur,lettre / drogue puissante/ 5d10 caps / stealth boy/ codes d'accès/ cigar de luxe
